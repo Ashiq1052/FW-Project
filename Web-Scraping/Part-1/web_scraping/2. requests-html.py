@@ -73,7 +73,7 @@ def main():
     # render_javascript('https://example.com')
 
     print("\nExtracting information from a web page...")
-    extract_information('https://www.ittefaq.com.bd/politics')
+    extract_information('https://www.prothomalo.com/world/usa/xnjy4uqwpv')
 
 if __name__ == "__main__":
     main()

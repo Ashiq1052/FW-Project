@@ -4,7 +4,6 @@ import uvicorn
 from app.routers import news, summary
 
 app = FastAPI()
-
 app.include_router(news.router)
 app.include_router(summary.router)
 

@@ -14,7 +14,8 @@ database=os.getenv("DB_NAME")
 encoded_passwd = quote_plus(passwd)
 
 
-SQLALCHEMY_DATABASE_URL = f"mysql+mysqlconnector://{user}:{encoded_passwd}@{host}/{database}"
+# SQLALCHEMY_DATABASE_URL = f"mysql+mysqlconnector://{user}:{passwd}@{host}/{database}"
+SQLALCHEMY_DATABASE_URL = f"mysql+mysqlconnector://root:IamAshiq105435@localhost/news"
 
 print(SQLALCHEMY_DATABASE_URL)
 
